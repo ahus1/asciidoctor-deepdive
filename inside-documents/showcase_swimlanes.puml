@@ -1,0 +1,12 @@
+@startuml
+|Component with Web-UI|
+start
+:User opens web page;
+:Forward to authentication;
+|#AntiqueWhite|Authentication|
+:Authenticate with user name\nand password;
+:Forward to Web-UI;
+|Component with Web-UI|
+:Open Web-UI;
+stop
+@enduml

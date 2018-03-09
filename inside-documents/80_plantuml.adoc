@@ -1,0 +1,9 @@
+[plantuml, document, svg]
+----
+include::showcase_plantuml.puml[]
+----
+
+[plantuml, swimlanes, svg]
+----
+include::showcase_swimlanes.puml[]
+----

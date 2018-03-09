@@ -1,0 +1,15 @@
+
+:stem:
+
+1 + 2
+
+stem:[1+2]
+
+Water (stem:[H_2O]) is a critical component.
+
+What is the square root: stem:[sqrt(4) = 2]?
+
+[stem]
+++++
+sqrt(4) = 2
+++++

@@ -1,0 +1,21 @@
+= Asciidoctor Deep Dive
+
+This project includes samples for advanced corner cases that I experienced over time.
+It also shows how to create a PDF file from Asciidoctor sources using Maven.
+
+It's an example project for my talk 'Asciidoctor Deep Dive': +
+https://www.ahus1.de/post/asciidoctor-intro-and-deep-dive
+
+As a special feature the PDF creation includes an extension to enable hyphenation.
+As the German language contains long words this is essential as the layout would otherwise look quite ugly when using tables.
+
+== Running PDF generation
+
+You need to have Maven installed.
+To run the PDF generation go the the _manual_ folder an issue _mvn compile_.
+The first run takes some time as it will download dependencies from the web.
+Subsequent runs will be faster.
+
+You'll find the results in the folder _manual/target/generated-docs_.
+
+

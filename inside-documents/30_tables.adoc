@@ -1,0 +1,17 @@
+[%autowidth.spread]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|This has lots of contents for the column that there is.
+Let's add some more!
+.3+|This combines cells.
+.<|v-top
+
+|This has lots of contents for the column that there is.
+Let's add some more!
+.^|v-center
+
+|This has lots of contents for the column that there is.
+Let's add some more!
+.>|v-bottom
+|===

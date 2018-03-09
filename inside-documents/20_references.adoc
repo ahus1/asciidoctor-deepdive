@@ -1,0 +1,17 @@
+
+:section-refsig: Sect.
+
+:sectnums:
+
+// :xrefstyle: full
+// :xrefstyle: short
+// :xrefstyle: basic
+
+[[ref]]
+// [reftext=reftext]
+== Section to reference
+
+<<ref>>
+
+<<ref,my text>>
+

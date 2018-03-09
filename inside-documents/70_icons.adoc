@@ -1,0 +1,17 @@
+https://fontawesome.com/icons?d=gallery
+
+
+:icons: font
+
+icon:heart[]
+
+icon:heart[size=2x]
+
+icon:heart[size=4x]
+
+icon:github[size=4x]
+
+icon:github[size=4x,rotate=90]
+
+icon:address-book[4x]
+

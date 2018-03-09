@@ -1,0 +1,17 @@
+:version: 0.9
+
+ifeval::[{version} >= 1]
+We are live!
+endif::[]
+
+ifeval::[{version} < 1]
+Still developing...
+endif::[]
+
+ifdef::env-github[]
+To read this tutorial fully rendered, please visit: https://...
+endif::[]
+
+ifdef::env-idea[]
+You can put some settings here for your IDE
+endif::[]

@@ -1,0 +1,18 @@
+' https://real-world-plantuml.com/
+
+@startuml
+
+' skinparam shadowing false
+' skinparam componentStyle uml2
+' skinparam linetype straight
+' skinparam linetype polyline
+' skinparam linetype ortho
+
+
+DataAccess - [First Component]
+[First Component] ..> HTTP1 : use1
+[First Component] .left.> HTTP2 : use2
+[First Component] .up.> HTTP3 : use3
+[First Component] .right.> HTTP4 : use4
+
+@enduml

@@ -1,0 +1,45 @@
+WARNING: hi
+
+:icons: font
+
+WARNING: hi
+
+---
+
+F11 Toggle fullscreen
+
+:experimental:
+
+kbd:[F11] Toggle fullscreen
+
+---
+
+:toclevels: 3
+
+:toc:
+
+:sectnumlevels: 4
+
+== Hi
+
+:sectanchors:
+
+== Hi
+
+---
+
+.This is a table
+|====
+| Hi
+| Ho
+|====
+
+:table-caption: Tabelle
+
+:figure-caption: Abbildung
+
+.Das ist eine Tabelle
+|====
+| Hi
+| Ho
+|====
