@@ -138,13 +138,13 @@
                     <dependency>
                         <groupId>rubygems</groupId>
                         <artifactId>asciidoctor</artifactId>
-                        <version>1.5.6.1</version>
+                        <version>1.5.8</version>
                         <type>gem</type>
                     </dependency>
                     <dependency>
                         <groupId>rubygems</groupId>
                         <artifactId>asciidoctor-diagram</artifactId>
-                        <version>1.5.7</version>
+                        <version>1.5.11</version>
                         <type>gem</type>
                     </dependency>
                     <dependency>
@@ -163,6 +163,12 @@
                         <groupId>rubygems</groupId>
                         <artifactId>text-hyphen</artifactId>
                         <version>1.4.1</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>concurrent-ruby</artifactId>
+                        <version>1.0.5</version>
                         <type>gem</type>
                     </dependency>
                 </dependencies>
