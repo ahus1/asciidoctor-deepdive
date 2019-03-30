@@ -1,0 +1,15 @@
+== Subchapter 1
+
+// in the preview this will be rendered as an icon, as the .asciidoctorconfig from the parent is effective here as well.
+NOTE: Please have a look at this example file:
+
+// includes always work relative to the file
+----
+include::example.sh[]
+----
+
+This is a sunset
+
+// images are included relative to the imagedir (if set) or to the current directory
+// to make it work for subchapters, we override it for preview in .asciidoctorconfig
+image::chapter-1/sunset.jpg[]

@@ -1,0 +1,4 @@
+// .asciidoctorconfig files currently work only in the IntelliJ plugin
+// https://github.com/asciidoctor/asciidoctor-intellij-plugin/wiki/Support-project-specific-configurations
+// set an imagesdir, so the document can be rendered as preview from subchapter-1 and main.adoc
+:imagesdir: ../

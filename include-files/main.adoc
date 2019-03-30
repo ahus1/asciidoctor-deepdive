@@ -1,0 +1,6 @@
+= My Book
+
+NOTE: This is my book.
+
+// include when glob extension is enable
+include::chapter-*.adoc[]
