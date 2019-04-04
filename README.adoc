@@ -9,7 +9,7 @@ https://www.ahus1.de/post/asciidoctor-intro-and-deep-dive
 As a special feature the PDF creation includes an extension to enable hyphenation.
 As the German language contains long words this is essential as the layout would otherwise look quite ugly when using tables.
 
-== Running PDF generation
+== Running PDF generation with Maven
 
 You need to have Maven installed.
 To run the PDF generation go the the _manual_ folder an issue _mvn compile_.
@@ -17,5 +17,14 @@ The first run takes some time as it will download dependencies from the web.
 Subsequent runs will be faster.
 
 You'll find the results in the folder _manual/target/generated-docs_.
+
+== Running PDF generation with Ruby only
+
+You need to have Ruby installed.
+To run the PDF generation go the the _manual-ruby_ folder an issue _run.cmd_.
+This will first install the necessary gems, and the create a PDF.
+
+You'll find the PDF here: _manual-ruby/manual.pdf_.
+
 
 
