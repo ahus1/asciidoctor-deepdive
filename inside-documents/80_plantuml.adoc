@@ -1,9 +1,13 @@
-[plantuml, document, svg]
+// styles of plantuml diagrams
+
+[plantuml, user, svg]
+----
+:user:
+----
+
+[plantuml,document, svg]
 ----
 include::showcase_plantuml.puml[]
 ----
 
-[plantuml, swimlanes, svg]
-----
-include::showcase_swimlanes.puml[]
-----
+plantuml::showcase_swimlanes.puml[swimlanes, svg]
