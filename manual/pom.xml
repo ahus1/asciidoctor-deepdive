@@ -106,7 +106,7 @@
             <plugin>
                 <groupId>de.saumya.mojo</groupId>
                 <artifactId>gem-maven-plugin</artifactId>
-                <version>1.1.5</version>
+                <version>1.1.8</version>
                 <executions>
                     <execution>
                         <id>html</id>
@@ -129,7 +129,7 @@
                                 -d book
                                 -D ${basedir}/target/generated-docs
                             </execArgs>
-                            <jrubyVersion>9.1.6.0</jrubyVersion>
+                            <jrubyVersion>9.2.7.0</jrubyVersion>
                             <launchDirectory>target/main/asciidoc</launchDirectory>
                         </configuration>
                     </execution>
@@ -138,13 +138,13 @@
                     <dependency>
                         <groupId>rubygems</groupId>
                         <artifactId>asciidoctor</artifactId>
-                        <version>1.5.8</version>
+                        <version>2.0.10</version>
                         <type>gem</type>
                     </dependency>
                     <dependency>
                         <groupId>rubygems</groupId>
                         <artifactId>asciidoctor-diagram</artifactId>
-                        <version>1.5.11</version>
+                        <version>1.5.18</version>
                         <type>gem</type>
                     </dependency>
                     <dependency>
@@ -156,7 +156,7 @@
                     <dependency>
                         <groupId>rubygems</groupId>
                         <artifactId>asciidoctor-pdf</artifactId>
-                        <version>1.5.0.alpha.16</version>
+                        <version>1.5.0.beta.2</version>
                         <type>gem</type>
                     </dependency>
                     <dependency>
@@ -213,7 +213,7 @@
                                         -D ${basedir}/target/generated-docs
                                     </execArgs>
                                     <launchDirectory>target/main/asciidoc</launchDirectory>
-                                    <jrubyVersion>9.1.6.0</jrubyVersion>
+                                    <jrubyVersion>9.2.7.0</jrubyVersion>
                                 </configuration>
                             </execution>
                         </executions>
