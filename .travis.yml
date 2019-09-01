@@ -1,8 +1,6 @@
 language: java
 jdk:
-  - oraclejdk8
-# remove line "dist: trusty" and fast forward to xenial once oraclejdk8 is no longer required due to old JavaFX
-dist: trusty
+  - openjdk8
 script:
   - "./build.sh"
 cache:
