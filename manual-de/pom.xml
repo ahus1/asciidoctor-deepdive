@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>Manual</name>
+    <packaging>jar</packaging>
+    <artifactId>manual</artifactId>
+    <groupId>de.ahus1.asciidoc</groupId>
+    <version>99-SNAPSHOT</version>
+    <repositories>
+        <repository>
+            <id>rubygems-proxy</id>
+            <name>Rubygems Proxy</name>
+            <url>http://rubygems-proxy.torquebox.org/releases</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>rubygems-proxy</id>
+            <name>Rubygems Proxy</name>
+            <url>http://rubygems-proxy.torquebox.org/releases</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/asciidoc</directory>
+                <targetPath>../main/asciidoc</targetPath>
+                <excludes>
+                    <exclude>manual.adoc</exclude>
+                </excludes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/asciidoc</directory>
+                <targetPath>../main/asciidoc</targetPath>
+                <includes>
+                    <include>manual.adoc</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/asciidoc/images</directory>
+                <targetPath>../generated-docs/images</targetPath>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>pl.project13.maven</groupId>
+                <artifactId>git-commit-id-plugin</artifactId>
+                <version>2.2.4</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>revision</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <generateGitPropertiesFile>true</generateGitPropertiesFile>
+                    <dotGitDirectory>${project.basedir}/../.git</dotGitDirectory>
+                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bsh-property</goal>
+                        </goals>
+                        <configuration>
+                            <properties>
+                                <property>docstatus</property>
+                            </properties>
+                            <source>
+                                <![CDATA[
+                                // switch the following lines to enable "Final" for every non-snapshot version
+                                docstatus = project.getVersion().endsWith("-SNAPSHOT") ? "In Bearbeitung" : "Final";
+                                ]]>
+                            </source>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>de.saumya.mojo</groupId>
+                <artifactId>gem-maven-plugin</artifactId>
+                <version>1.1.8</version>
+                <executions>
+                    <execution>
+                        <id>html</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <jrubyJvmArgs>-Xmx256m</jrubyJvmArgs>
+                            <execArgLines>
+                                <execArgLine>${project.build.directory}/rubygems/bin/asciidoctor
+                                </execArgLine>
+                            </execArgLines>
+                            <execArgs>
+                                -r asciidoctor-diagram
+                                -a toc=left
+                                -a imagesDir=images
+                                -a imagesoutdir=../../../target/generated-docs/images
+                                ${basedir}/target/main/asciidoc/manual.adoc
+                                -d book
+                                -D ${basedir}/target/generated-docs
+                            </execArgs>
+                            <jrubyVersion>9.2.7.0</jrubyVersion>
+                            <launchDirectory>target/main/asciidoc</launchDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>asciidoctor</artifactId>
+                        <version>2.0.10</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>asciidoctor-diagram</artifactId>
+                        <version>1.5.18</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>coderay</artifactId>
+                        <version>1.1.1</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>asciidoctor-pdf</artifactId>
+                        <version>1.5.0.beta.2</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>text-hyphen</artifactId>
+                        <version>1.4.1</version>
+                        <type>gem</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>rubygems</groupId>
+                        <artifactId>concurrent-ruby</artifactId>
+                        <version>1.0.5</version>
+                        <type>gem</type>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+    <profiles>
+        <profile>
+            <id>pdf</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>de.saumya.mojo</groupId>
+                        <artifactId>gem-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>pdf</id>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <phase>compile</phase>
+                                <configuration>
+                                    <jrubyJvmArgs>-Xmx512m</jrubyJvmArgs>
+                                    <execArgLines>
+                                        <execArgLine>${project.build.directory}/rubygems/bin/asciidoctor-pdf
+                                        </execArgLine>
+                                    </execArgLines>
+                                    <execArgs>-r asciidoctor-diagram
+                                        -r ./lib/hyphenation.rb
+                                        -a toc=left
+                                        -a icons=font
+                                        -a pagenums
+                                        -a toc=macro
+                                        -a idprefix
+                                        -a idseparator=-
+                                        -a imagesDir=../../../target/generated-docs/images
+                                        -a imagesoutdir=../../../target/generated-docs/images
+                                        ${basedir}/target/main/asciidoc/manual.adoc
+                                        -D ${basedir}/target/generated-docs
+                                    </execArgs>
+                                    <launchDirectory>target/main/asciidoc</launchDirectory>
+                                    <jrubyVersion>9.2.7.0</jrubyVersion>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

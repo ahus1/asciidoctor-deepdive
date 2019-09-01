@@ -3,8 +3,7 @@ require 'text/hyphen'
 
 include ::Asciidoctor
 
-# use "de" for German hyphenation
-Hyphenator = Text::Hyphen.new(:language => "en_US")
+HyphenatorGerman = Text::Hyphen.new(:language => "de")
 
 # ignore entities and things in pointy brackets
 SegmentPcdataRx = /(?:(&[a-z]+;|<[^>]+>)|([^&<]+))/
@@ -13,7 +12,7 @@ def hyphenate string
   words = string.split(/[^[[:word:]]]+/).uniq
   if (words) then
     words.each do |word|
-      hyphenatedWord = Hyphenator.visualize word, '&#173;'
+      hyphenatedWord = HyphenatorGerman.visualize word, '&#173;'
       string = string.gsub word, hyphenatedWord
     end
   end
