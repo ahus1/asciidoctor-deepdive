@@ -4,7 +4,8 @@ require 'text/hyphen'
 include ::Asciidoctor
 
 # use "de" for German hyphenation
-Hyphenator = Text::Hyphen.new(:language => "en_US")
+# see https://github.com/halostatue/text-hyphen/tree/master/lib/text/hyphen/language for all languages
+Hyphenator = Text::Hyphen.new(:language => "en_us")
 
 # ignore entities and things in pointy brackets
 SegmentPcdataRx = /(?:(&[a-z]+;|<[^>]+>)|([^&<]+))/

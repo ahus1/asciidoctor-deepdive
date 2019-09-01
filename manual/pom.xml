@@ -96,7 +96,7 @@
                             <source>
                                 <![CDATA[
                                 // switch the following lines to enable "Final" for every non-snapshot version
-                                docstatus = project.getVersion().endsWith("-SNAPSHOT") ? "In Bearbeitung" : "Final";
+                                docstatus = project.getVersion().endsWith("-SNAPSHOT") ? "Work in Progress" : "Final";
                                 ]]>
                             </source>
                         </configuration>
@@ -128,6 +128,7 @@
                                 ${basedir}/target/main/asciidoc/manual.adoc
                                 -d book
                                 -D ${basedir}/target/generated-docs
+                                --trace
                             </execArgs>
                             <jrubyVersion>9.2.7.0</jrubyVersion>
                             <launchDirectory>target/main/asciidoc</launchDirectory>
@@ -211,6 +212,7 @@
                                         -a imagesoutdir=../../../target/generated-docs/images
                                         ${basedir}/target/main/asciidoc/manual.adoc
                                         -D ${basedir}/target/generated-docs
+                                        --trace
                                     </execArgs>
                                     <launchDirectory>target/main/asciidoc</launchDirectory>
                                     <jrubyVersion>9.2.7.0</jrubyVersion>
