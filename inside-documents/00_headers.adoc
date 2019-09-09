@@ -4,7 +4,7 @@ WARNING: hi
 
 WARNING: hi
 
----
+'''
 
 F11 Toggle fullscreen
 
@@ -12,7 +12,7 @@ F11 Toggle fullscreen
 
 kbd:[F11] Toggle fullscreen
 
----
+'''
 
 :toclevels: 3
 
@@ -26,7 +26,7 @@ kbd:[F11] Toggle fullscreen
 
 == Hi
 
----
+'''
 
 .This is a table
 |====
