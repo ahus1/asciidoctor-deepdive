@@ -1,5 +1,5 @@
-:toclevels: 3
 :toc:
+:toclevels: 2
 :sectnums:
 :sectnumlevels: 4
 
@@ -23,7 +23,7 @@ kbd:[F11] Toggle fullscreen
 
 :sectanchors:
 
-== Ho
+=== Ho
 
 '''
 

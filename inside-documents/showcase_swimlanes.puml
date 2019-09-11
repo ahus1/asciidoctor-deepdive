@@ -1,4 +1,5 @@
 @startuml
+skinparam shadowing false
 |Component with Web-UI|
 start
 :User opens web page;
