@@ -1,0 +1,19 @@
+|===
+|Path|Type|Description|Constraints
+
+|title
+|String
+|The title of the note
+|Must be null or not blank
+
+|body
+|String
+|The body of the note
+|
+
+|tags
+|Array
+|An array of tag resource URIs
+|
+
+|===

@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+_embedded.notes+`
+|`+Array+`
+|An array of <<resources-note, Note resources>>
+
+|===

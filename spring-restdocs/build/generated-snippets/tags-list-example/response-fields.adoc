@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+_embedded.tags+`
+|`+Array+`
+|An array of <<resources-tag,Tag resources>>
+
+|===

@@ -1,0 +1,7 @@
+|===
+|Name|Description
+
+|`+Content-Type+`
+|The Content-Type of the payload, e.g. `application/hal+json`
+
+|===

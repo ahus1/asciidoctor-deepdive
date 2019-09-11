@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/notes' -i -X POST \
+    -H 'Content-Type: application/hal+json' \
+    -d '{
+  "title" : "Tagged note creation with cURL",
+  "body" : "An example of how to create a tagged note using cURL",
+  "tags" : [ "http://localhost:8080/tags/17" ]
+}'
+----

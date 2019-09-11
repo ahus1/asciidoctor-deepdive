@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`+name+`
+|`+String+`
+|The name of the tag
+
+|`+_links+`
+|`+Object+`
+|<<resources-tag-links,Links>> to other resources
+
+|===

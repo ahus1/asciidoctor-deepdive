@@ -1,0 +1,19 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Length: 294
+Content-Type: application/hal+json;charset=UTF-8
+
+{
+  "title" : "REST maturity model",
+  "body" : "https://martinfowler.com/articles/richardsonMaturityModel.html",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/notes/14"
+    },
+    "note-tags" : {
+      "href" : "http://localhost:8080/notes/14/tags"
+    }
+  }
+}
+----

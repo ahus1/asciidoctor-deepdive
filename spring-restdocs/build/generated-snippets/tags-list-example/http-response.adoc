@@ -1,0 +1,42 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/hal+json;charset=UTF-8
+Content-Length: 777
+
+{
+  "_embedded" : {
+    "tags" : [ {
+      "name" : "REST",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/tags/4"
+        },
+        "tagged-notes" : {
+          "href" : "http://localhost:8080/tags/4/notes"
+        }
+      }
+    }, {
+      "name" : "Hypermedia",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/tags/5"
+        },
+        "tagged-notes" : {
+          "href" : "http://localhost:8080/tags/5/notes"
+        }
+      }
+    }, {
+      "name" : "HTTP",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/tags/6"
+        },
+        "tagged-notes" : {
+          "href" : "http://localhost:8080/tags/6/notes"
+        }
+      }
+    } ]
+  }
+}
+----

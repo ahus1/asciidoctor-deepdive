@@ -1,0 +1,14 @@
+[source,options="nowrap"]
+----
+{
+  "name" : "REST",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/tags/15"
+    },
+    "tagged-notes" : {
+      "href" : "http://localhost:8080/tags/15/notes"
+    }
+  }
+}
+----

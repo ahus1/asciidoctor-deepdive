@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "RESTful"
+}' | http PATCH 'http://localhost:8080/tags/1' \
+    'Content-Type:application/hal+json'
+----

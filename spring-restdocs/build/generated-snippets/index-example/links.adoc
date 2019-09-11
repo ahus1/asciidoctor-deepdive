@@ -1,0 +1,10 @@
+|===
+|Relation|Description
+
+|`+notes+`
+|The <<resources-notes,Notes resource>>
+
+|`+tags+`
+|The <<resources-tags,Tags resource>>
+
+|===

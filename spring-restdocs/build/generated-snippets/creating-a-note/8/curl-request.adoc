@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/notes/16' -i -X PATCH \
+    -H 'Content-Type: application/hal+json' \
+    -d '{
+  "tags" : [ "http://localhost:8080/tags/17" ]
+}'
+----

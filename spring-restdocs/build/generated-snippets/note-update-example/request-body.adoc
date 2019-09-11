@@ -1,0 +1,6 @@
+[source,options="nowrap"]
+----
+{
+  "tags" : [ "http://localhost:8080/tags/3" ]
+}
+----

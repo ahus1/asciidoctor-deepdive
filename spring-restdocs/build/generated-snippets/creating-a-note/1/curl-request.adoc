@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/notes' -i -X POST \
+    -H 'Content-Type: application/hal+json' \
+    -d '{
+  "title" : "Note creation with cURL",
+  "body" : "An example of how to create a note using cURL"
+}'
+----

@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "getting-started"
+}' | http POST 'http://localhost:8080/tags' \
+    'Content-Type:application/hal+json'
+----

@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "tags" : [ "http://localhost:8080/tags/17" ]
+}' | http PATCH 'http://localhost:8080/notes/16' \
+    'Content-Type:application/hal+json'
+----

@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ echo '{
+  "title" : "Tagged note creation with cURL",
+  "body" : "An example of how to create a tagged note using cURL",
+  "tags" : [ "http://localhost:8080/tags/17" ]
+}' | http POST 'http://localhost:8080/notes' \
+    'Content-Type:application/hal+json'
+----

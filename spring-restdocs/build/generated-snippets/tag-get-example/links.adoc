@@ -1,0 +1,10 @@
+|===
+|Relation|Description
+
+|`+self+`
+|This <<resources-tag,tag>>
+
+|`+tagged-notes+`
+|The <<resources-tagged-notes,notes>> that have this tag
+
+|===

@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/notes' -i -X POST \
+    -H 'Content-Type: application/hal+json' \
+    -d '{
+  "title" : "REST maturity model",
+  "body" : "https://martinfowler.com/articles/richardsonMaturityModel.html",
+  "tags" : [ "http://localhost:8080/tags/10" ]
+}'
+----

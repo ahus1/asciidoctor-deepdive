@@ -1,0 +1,12 @@
+[source,http,options="nowrap"]
+----
+POST /notes HTTP/1.1
+Content-Type: application/hal+json
+Content-Length: 104
+Host: localhost:8080
+
+{
+  "title" : "Note creation with cURL",
+  "body" : "An example of how to create a note using cURL"
+}
+----

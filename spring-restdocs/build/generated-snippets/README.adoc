@@ -1,0 +1,9 @@
+= Spring REST Docs Example
+
+This is an example taken from the https://github.com/spring-projects/spring-restdocs/tree/master/samples/rest-notes-spring-hateoas[Spring REST Docs Examples].
+
+This is to show the autocomplete support for the `+++operation::xxx[]+++` macro when using the https://github.com/asciidoctor/asciidoctor-intellij-plugin[AsciiDoc plugin for IntelliJ].
+
+To support this, some of the usually generated files in the `build` folder are checked in to the repository.
+
+You can read more about this in the https://github.com/asciidoctor/asciidoctor-intellij-plugin/wiki/Spring-REST-Docs-support[Wiki of the AsciiDoc plugin for IntelliJ].

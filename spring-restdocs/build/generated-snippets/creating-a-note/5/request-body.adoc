@@ -1,0 +1,8 @@
+[source,options="nowrap"]
+----
+{
+  "title" : "Tagged note creation with cURL",
+  "body" : "An example of how to create a tagged note using cURL",
+  "tags" : [ "http://localhost:8080/tags/17" ]
+}
+----

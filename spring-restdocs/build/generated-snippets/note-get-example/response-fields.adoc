@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`+title+`
+|`+String+`
+|The title of the note
+
+|`+body+`
+|`+String+`
+|The body of the note
+
+|`+_links+`
+|`+Object+`
+|<<resources-note-links,Links>> to other resources
+
+|===

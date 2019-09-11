@@ -1,0 +1,9 @@
+|===
+|Path|Type|Description|Constraints
+
+|name
+|String
+|The name of the tag
+|Must not be blank
+
+|===

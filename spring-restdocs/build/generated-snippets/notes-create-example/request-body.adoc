@@ -1,0 +1,8 @@
+[source,options="nowrap"]
+----
+{
+  "title" : "REST maturity model",
+  "body" : "https://martinfowler.com/articles/richardsonMaturityModel.html",
+  "tags" : [ "http://localhost:8080/tags/10" ]
+}
+----

@@ -1,0 +1,19 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Length: 295
+Content-Type: application/hal+json;charset=UTF-8
+
+{
+  "title" : "Tagged note creation with cURL",
+  "body" : "An example of how to create a tagged note using cURL",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/notes/18"
+    },
+    "note-tags" : {
+      "href" : "http://localhost:8080/notes/18/tags"
+    }
+  }
+}
+----

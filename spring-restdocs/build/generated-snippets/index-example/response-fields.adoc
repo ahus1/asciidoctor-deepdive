@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+_links+`
+|`+Object+`
+|<<resources-index-links,Links>> to other resources
+
+|===

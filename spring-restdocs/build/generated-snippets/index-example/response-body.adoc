@@ -1,0 +1,13 @@
+[source,options="nowrap"]
+----
+{
+  "_links" : {
+    "notes" : {
+      "href" : "http://localhost:8080/notes"
+    },
+    "tags" : {
+      "href" : "http://localhost:8080/tags"
+    }
+  }
+}
+----

@@ -1,0 +1,45 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/hal+json;charset=UTF-8
+Content-Length: 1053
+
+{
+  "_embedded" : {
+    "notes" : [ {
+      "title" : "REST maturity model",
+      "body" : "https://martinfowler.com/articles/richardsonMaturityModel.html",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/notes/7"
+        },
+        "note-tags" : {
+          "href" : "http://localhost:8080/notes/7/tags"
+        }
+      }
+    }, {
+      "title" : "Hypertext Application Language (HAL)",
+      "body" : "https://github.com/mikekelly/hal_specification",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/notes/8"
+        },
+        "note-tags" : {
+          "href" : "http://localhost:8080/notes/8/tags"
+        }
+      }
+    }, {
+      "title" : "Application-Level Profile Semantics (ALPS)",
+      "body" : "https://github.com/alps-io/spec",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/notes/9"
+        },
+        "note-tags" : {
+          "href" : "http://localhost:8080/notes/9/tags"
+        }
+      }
+    } ]
+  }
+}
+----

@@ -1,0 +1,13 @@
+[source,http,options="nowrap"]
+----
+POST /notes HTTP/1.1
+Content-Type: application/hal+json
+Content-Length: 166
+Host: localhost:8080
+
+{
+  "title" : "REST maturity model",
+  "body" : "https://martinfowler.com/articles/richardsonMaturityModel.html",
+  "tags" : [ "http://localhost:8080/tags/10" ]
+}
+----

@@ -1,0 +1,19 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/hal+json;charset=UTF-8
+Content-Length: 281
+
+{
+  "title" : "Note creation with cURL",
+  "body" : "An example of how to create a note using cURL",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/notes/16"
+    },
+    "note-tags" : {
+      "href" : "http://localhost:8080/notes/16/tags"
+    }
+  }
+}
+----
