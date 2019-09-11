@@ -1,4 +1,4 @@
-== Subchapter 1
+== Sub-Chapter 1
 
 // in the preview this will be rendered as an icon, as the .asciidoctorconfig from the parent is effective here as well.
 NOTE: Please have a look at this example file:

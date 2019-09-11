@@ -31,7 +31,7 @@ v${project.version}, {datum} <{status} - {confidence-level}>
 
 == Chapter
 
-=== Subchapter
+=== Sub-Chapter
 
 // https://asciidoctor.org/
 
@@ -52,4 +52,4 @@ In addition to an AsciiDoc processor and a collection of stylesheets, the projec
 
 == Chapter
 
-=== Subchapter
+=== Sub-Chapter
