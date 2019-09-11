@@ -109,7 +109,7 @@ footer:
         {reference} +
         Version {revnumber} {datum}
     center:
-      content: '<{confidence-level}>'
+      content: '<{classification-level}>'
     right:
       content: 'Seite {page-number} von {page-count}'
   verso:

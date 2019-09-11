@@ -16,7 +16,7 @@
 // there will be anchors (paragraph sign) in front of the headings
 :sectanchors:
 :figure-caption: Abbildung
-:confidence-level: Vertraulich
+:classification-level: Vertraulich
 :status: ${docstatus}
 :datum: ${git.commit.time}-${git.commit.id}
 :author: Vorname Nachname (Firma)
@@ -26,7 +26,7 @@
 
 = Handbuch: {reference}
 {author}
-v${project.version}, {datum} <{status} - {confidence-level}>
+v${project.version}, {datum} <{status} - {classification-level}>
 
 //Anmerkung:
 //Schriftart kann umgestellt werden, es gibt aber dann evtl. Probleme mit Zeichen wie "--" > Daher erst mal als Noto Serif gelassen

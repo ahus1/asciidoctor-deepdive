@@ -14,7 +14,7 @@
 :sectnumlevels: 4
 // there will be anchors (paragraph sign) in front of the headings
 :sectanchors:
-:confidence-level: confidential
+:classification-level: confidential
 :status: ${docstatus}
 :datum: ${git.commit.time}-${git.commit.id}
 :author: Firstname Lastname (Company)
@@ -24,7 +24,7 @@
 
 = Manual: {reference}
 {author}
-v${project.version}, {datum} <{status} - {confidence-level}>
+v${project.version}, {datum} <{status} - {classification-level}>
 
 //When you change the font, you might run into problems for characters like "--" > Use Noto Serif to be safe
 //List of Tables / Figures currently not supported, but could be realized with extension (http://discuss.asciidoctor.org/List-of-tables-figures-td2829.html)
