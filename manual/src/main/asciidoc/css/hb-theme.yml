@@ -111,7 +111,7 @@ footer:
     center:
       content: '<{classification-level}>'
     right:
-      content: 'Seite {page-number} von {page-count}'
+      content: 'page {page-number} of {page-count}'
   verso:
     left:
       content: $footer_recto_left_content
