@@ -19,7 +19,7 @@
 :datum: ${git.commit.time}-${git.commit.id}
 :author: Firstname Lastname (Company)
 :reference: ABC-XYZ
-//Titel and Version can be directly edited below
+//Title and Version can be directly edited below
 
 
 = Manual: {reference}
