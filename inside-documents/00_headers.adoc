@@ -1,3 +1,8 @@
+:toclevels: 3
+:toc:
+:sectnums:
+:sectnumlevels: 4
+
 WARNING: hi
 
 :icons: font
@@ -14,17 +19,11 @@ kbd:[F11] Toggle fullscreen
 
 '''
 
-:toclevels: 3
-
-:toc:
-
-:sectnumlevels: 4
-
 == Hi
 
 :sectanchors:
 
-== Hi
+== Ho
 
 '''
 
