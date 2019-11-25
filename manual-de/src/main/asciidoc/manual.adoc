@@ -22,7 +22,8 @@
 :author: Vorname Nachname (Firma)
 :reference: ABC-XYZ
 //Titel and Version can be directly edited below
-
+:lang: DE
+:hyphens:
 
 = Handbuch: {reference}
 {author}

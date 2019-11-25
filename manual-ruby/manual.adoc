@@ -19,6 +19,8 @@
 :datum: ${datum}
 :author: Vorname Nachname (Firma)
 :reference: ABC-XYZ
+:lang: DE
+:hyphens:
 //Titel and Version can be directly edited below
 
 

@@ -8,6 +8,7 @@
 :icons: font
 :pdf-stylesdir: css/
 :pdf-style: hb
+:hyphens:
 // using experimental to support btn: macro
 :experimental:
 :toclevels: 3
