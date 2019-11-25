@@ -139,6 +139,8 @@
                 <toc/>
                 <idprefix/>
                 <idseparator>-</idseparator>
+                <imagesDir>../../../target/generated-docs/images</imagesDir>
+                <imagesoutdir>../../../target/generated-docs/images</imagesoutdir>
               </attributes>
             </configuration>
           </execution>
