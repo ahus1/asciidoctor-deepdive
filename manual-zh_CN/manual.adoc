@@ -1,0 +1,20 @@
+= 标题
+:lang: zh_CN
+:pdf-stylesdir: css
+:pdf-style: zh_CN
+:pdf-fontsdir: fonts
+:icons: font
+
+To make this work, read `css/zh_CN-theme.yml` first.
+Then download the necessary fonts from +
+https://github.com/minjiex/kaigen-gothic/tree/master/dist/CN +
+and place them in the folder `fonts`.
+
+// TODO
+WARNING: This setup still needs a good font for listings.
+
+== 這能寫詩嗎？
+
+這要幹嘛的？
+
+產生沒有意義的文字組合，供排版時填充版面用，但不會因為字義而左右版型的判斷。

@@ -1,0 +1,43 @@
+# https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-theme.yml
+extends: default
+font:
+  fallbacks:
+    - kaigen-gothic-cn
+  catalog:
+    # These are the KaiGen Gothic CN fonts, download them from
+    # https://github.com/minjiex/kaigen-gothic/tree/master/dist/CN
+    kaigen-gothic-cn:
+      normal: KaiGenGothicCN-Regular.ttf
+      bold: KaiGenGothicCN-Bold.ttf
+      italic: KaiGenGothicCN-Regular.ttf
+      bold_italic: KaiGenGothicCN-Bold.ttf
+    # These are the Microsoft YaHei fonts available on windows 10
+    # msyh-win10:
+    #  normal: msyh.ttc
+    #  bold: msyhbd.ttc
+    #  italic: msyh.ttc
+    #  bold_italic: msyhbd.ttc
+    # These are the Microsoft YaHei fonts available on windows 7
+    # msyh-win7:
+    #  normal: msyh.ttf
+    #  bold: msyhbd-Bold.ttf
+    #  italic: msyh.ttf
+    #  bold_italic: msyhbd-Bold.ttf
+    # This is the default font for listings; if a character is not present here, it will use the fallback font from above
+    # TODO: consider using a font that supports zh_CN natively
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+#omit the other
+base:
+  # font_family: msyh-win10
+  # font_family: msyh-win10
+  font_family: kaigen-gothic-cn
