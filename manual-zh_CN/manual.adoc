@@ -5,10 +5,21 @@
 :pdf-fontsdir: fonts
 :icons: font
 
-To make this work, read `css/zh_CN-theme.yml` first.
+This is a show case for Chinese letters in AsciiDocs.
+
+Ruby/Prawn-Based::
+To make this work with https://github.com/asciidoctor/asciidoctor-pdf[asciidoctor-pdf], read `css/zh_CN-theme.yml` first.
 Then download the necessary fonts from +
 https://github.com/minjiex/kaigen-gothic/tree/master/dist/CN +
 and place them in the folder `fonts`.
+
+JavaScript/Chrome-based::
+To make this work with https://github.com/Mogztter/asciidoctor-pdf.js[asciidoctor-pdf.js], configure your fonts in custom.css, then run
++
+----
+$ yarn install
+$ yarn render
+----
 
 // TODO
 WARNING: This setup still needs a good font for listings.

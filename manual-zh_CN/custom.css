@@ -1,0 +1,4 @@
+/* this CSS is used for asciidoctor-pdf.js */
+h1, h2, h3, [data-id="toctitle"], .sidebarblock>.content>.title, h4, h5, h6, body {
+  font-family: "Source Han Serif SC", serif;
+}

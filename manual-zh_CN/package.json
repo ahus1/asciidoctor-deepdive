@@ -1,0 +1,12 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "dependencies": {
+    "asciidoctor": "^2.0.3",
+    "asciidoctor-pdf": "^1.0.0-alpha.7"
+  },
+  "scripts": {
+    "render": "asciidoctor-pdf manual.adoc -a stylesheet=\"asciidoctor-pdf/css/asciidoctor.css;asciidoctor-pdf/css/document.css;custom.css\"",
+    "preview": "asciidoctor-pdf manual.adoc -a stylesheet=\"asciidoctor-pdf/css/asciidoctor.css;asciidoctor-pdf/css/document.css;custom.css\" --preview"
+  }
+}
