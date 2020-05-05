@@ -6,8 +6,8 @@
 :source-highlighter: coderay
 :numbered:
 :icons: font
-:pdf-stylesdir: css/
-:pdf-style: hb
+:pdf-themesdir: css/
+:pdf-theme: hb
 :hyphens:
 // using experimental to support btn: macro
 :experimental:
