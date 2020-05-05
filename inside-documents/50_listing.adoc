@@ -2,7 +2,7 @@
 .Standard include
 [source,java]
 ----
-include::example.java[]
+include::Example.java[]
 ----
 
 :icons: font
@@ -10,7 +10,7 @@ include::example.java[]
 .Pick a block
 [source,java]
 ----
-include::example.java[tag=sop]
+include::Example.java[tag=sop]
 ----
 <1> this is your first line of Java
 
@@ -18,7 +18,7 @@ include::example.java[tag=sop]
 .Fix indentation
 [source,java,indent=0]
 ----
-include::example.java[tag=sop]
+include::Example.java[tag=sop]
 ----
 <1> this is your first line of Java
 
@@ -26,11 +26,11 @@ include::example.java[tag=sop]
 .Exclude a block
 [source,java,indent=0]
 ----
-include::example.java[tag=!sop]
+include::Example.java[tag=!sop]
 ----
 
 .Everything except the tags
 [source,java,indent=0]
 ----
-include::example.java[tag=**]
+include::Example.java[tag=**]
 ----
