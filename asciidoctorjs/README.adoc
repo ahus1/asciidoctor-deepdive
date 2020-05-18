@@ -1,0 +1,12 @@
+= Creating a PDF using AsciidoctorPDF.js
+
+== Prerequisite
+
+. Node including NPM installed
+
+== Running the example
+
+----
+npm install
+npm run pdf
+----

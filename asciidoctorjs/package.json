@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "dependencies": {
+    "asciidoctor": "^2.0.3",
+    "asciidoctor-pdf": "1.0.0-alpha.6",
+    "pagedjs": "0.1.40"
+  },
+  "scripts": {
+    "pdf": "asciidoctor-pdf manual.adoc",
+    "preview": "asciidoctor-pdf --preview manual.adoc"
+  }
+}
