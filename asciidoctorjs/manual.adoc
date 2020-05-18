@@ -1,0 +1,10 @@
+= PDF created by JavaScript
+
+:stem:
+
+This also uses extensions to show math!
+
+[stem]
+++++
+sqrt(4)^2 = 2
+++++

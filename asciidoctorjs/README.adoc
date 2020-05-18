@@ -1,0 +1,18 @@
+= Creating a PDF using AsciidoctorPDF.js
+
+== About
+
+This shows how to create a PDF with math using AsciidoctorPDF.js
+
+WARNING: This uses version 1.0.0-alpha.6 in `package.json`, as 1.0.0-alpha.7 seems to have a bug; see https://github.com/Mogztter/asciidoctor-pdf.js/issues/233
+
+== Prerequisite
+
+. Node including NPM installed
+
+== Running the example
+
+----
+npm install
+npm run pdf
+----
