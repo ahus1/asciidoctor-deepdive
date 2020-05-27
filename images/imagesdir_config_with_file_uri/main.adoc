@@ -1,0 +1,12 @@
+= My Book
+:imagesdir: images
+
+This is an example document with images referenced in chapters.
+
+The images will show in the preview of the _main.adoc_ file without an additional configuration.
+The paths given _chapter.adoc_ work when rendered in the preview of _main.adoc_.
+For the images to show in the preview of _chapter.adoc_ stand-alone, the configuration in _.asciidoctorconfig_ is needed.
+Have a look into the files in this project and its sibling for different approaches.
+
+// include when glob extension is enable
+include::chapter-1/chapter.adoc[]

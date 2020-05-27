@@ -1,0 +1,10 @@
+// .asciidoctorconfig files currently work only in the IntelliJ plugin
+// https://github.com/asciidoctor/asciidoctor-intellij-plugin/wiki/Support-project-specific-configurations
+// set an imagesdir, so the document can be rendered as preview from chapter.adoc and main.adoc
+
+// setting imagesdir to a file: URI will work for HTML5, but not for PDF output
+ifeval::["{backend}"=="html5"]
+// set an imagesdir, so the document can be rendered as preview from chapter.adoc and main.adoc
+// imagesdir is relative, unless it is an URI.
+:imagesdir: file:///{asciidoctorconfigdir}/images/
+endif::[]
