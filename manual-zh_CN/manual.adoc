@@ -1,7 +1,7 @@
 = 标题
 :lang: zh_CN
-:pdf-stylesdir: css
-:pdf-style: zh_CN
+:pdf-themesdir: themes
+:pdf-theme: zh_CN
 :pdf-fontsdir: fonts
 :icons: font
 
