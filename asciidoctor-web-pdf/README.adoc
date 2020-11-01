@@ -1,0 +1,16 @@
+= Creating a PDF using asciidoctor-web-pdf
+
+== About
+
+This shows how to create a PDF with math using https://github.com/Mogztter/asciidoctor-web-pdf[asciidoctor-web-pdf].
+
+== Prerequisite
+
+. Node including NPM installed
+
+== Running the example
+
+----
+npm install
+npm run pdf
+----
