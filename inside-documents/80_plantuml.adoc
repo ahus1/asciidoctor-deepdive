@@ -10,4 +10,4 @@
 include::showcase_plantuml.puml[]
 ----
 
-plantuml::showcase_swimlanes.puml[swimlanes,svg]
+plantuml::showcase_swimlanes.puml[name=swimlanes,format=svg]
