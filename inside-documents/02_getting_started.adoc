@@ -1,0 +1,71 @@
+Each sentence should be in a separate line.
+
+Every blank line creates a new paragraph.
+
+You can write *bold* text.
+_Italic_ works as well text.
+
+'''
+
+Lists
+
+. work
+. with
+. dots
+
+to make them numbered and
+
+* asterisks
+* to
+* make
+
+bullet points.
+
+'''
+
+:icons: font
+
+[IMPORTANT]
+--
+You can mark a paragraph to be important.
+--
+
+TIP: There is also the shorter one-line-syntax.
+
+====
+This is an example block. Use it to provide examples to your users.
+====
+
+----
+This is a listing.
+You can provide syntax highlighting for XML/Java etc. here.
+----
+
+'''
+
+Tables are blocks, `|===` marks their beginning and end.
+
+.Table title
+[cols="1,1,3a,1,2"]
+|===
+|H1 |H2 |H3 |H4 | H5
+
+|Cell
+|Cell 2
+|Formatting *of words* works like in _before_ if you switch the column or cell to AsciiDoc format.
+|Cell 4
+|Cell 5
+|===
+
+'''
+
+Images can be in-line and as blocks.
+
+An image:../include-files/chapter-1/sunset.jpg[width=70px] image in-line.
+
+An image with a caption:
+
+.This is an image
+image::../include-files/chapter-1/sunset.jpg[]
+
+For schematic drawings prefer to use SVG images for best results on the Web and in PDFs.
