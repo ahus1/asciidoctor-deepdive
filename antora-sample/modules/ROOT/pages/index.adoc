@@ -1,0 +1,7 @@
+= My start page
+
+[listing.terminal]
+[subs=+attributes]
+----
+{curl}
+----

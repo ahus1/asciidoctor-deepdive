@@ -1,0 +1,8 @@
+title: My Example
+name: my-example
+version: master
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    curl: $ curl@
