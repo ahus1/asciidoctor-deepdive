@@ -1,0 +1,24 @@
+= Formatting
+
+====
+Explore how AsciiDoc allows you for format your text!
+
+Example: some *bold* text!
+
+Read more about it in https://docs.asciidoctor.org/asciidoc/latest/text/[Text Formatting and Punctuation].
+
+Try out more options like:
+
+* italic
+* bold
+* bold and italic
+* monospace
+* formatting inside a word
+* avoid formatting of special characters content +
+See https://docs.asciidoctor.org/asciidoc/latest/pass/pass-macro/[using pass-through] in the docs or https://docs.asciidoctor.org/asciidoc/latest/subs/prevent/[escaping content].
+* find out about https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/[admonitions] and when to use them
+====
+
+Here you go, just type along!
+
+...

@@ -1,0 +1,23 @@
+= Structuring
+
+====
+Explore how to structure a document!
+
+Read more about it in https://docs.asciidoctor.org/asciidoc/latest/sections/titles-and-levels/[
+Section Titles and Levels].
+
+Try out:
+
+* multiple chapters
+* nested sub-chapters - how many level can you go?
+* add a table of contents (TOC)
+* configure how many levels should be shown in the TOC
+* add section numbers
+* configure how many level should have section numbers
+====
+
+Here you go, just type along!
+
+== Chapter 1
+
+...

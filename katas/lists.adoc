@@ -1,0 +1,20 @@
+= Lists
+
+====
+Awesome lists!
+
+Read more about it in the chapter about https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/[
+unorderd lists] and the following chapters.
+
+Try out:
+
+* a simple list with bullets
+* nesting lists
+* a numbered list
+* check marks
+* list items that has multiple paragraphs
+====
+
+Here you go, just type along!
+
+...

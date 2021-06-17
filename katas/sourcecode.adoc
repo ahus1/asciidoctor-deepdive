@@ -1,0 +1,30 @@
+= Source Code
+
+====
+Source Code is king in technical documentation!
+
+[source,ruby]
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+Read more about it in the chapter about https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-blocks/[source blocks] and the following chapters.
+
+Try out:
+
+* a snippet with any language
+* give it a title
+* find out what callouts are and give them a try
+* use an https://docs.asciidoctor.org/asciidoc/latest/directives/include/[include directive] to show source code outside of the document +
+(try `Example.java` as a filename in this demo)
+* use tags for the include to get only a part of the file
+* adjust indention
+====
+
+Here you go, just type along!
+
+...
