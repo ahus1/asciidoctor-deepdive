@@ -1,0 +1,21 @@
+= Tables
+
+====
+Tables is where AsciiDoc shines!
+
+You can have columns and rows, use AsciiDoc content in each cell, and even span cells and rows!
+
+Let's try:
+
+* https://docs.asciidoctor.org/asciidoc/latest/tables/build-a-basic-table/[create a basic AsciiDoc table]
+* https://docs.asciidoctor.org/asciidoc/latest/tables/add-title/[give it a title]
+* https://docs.asciidoctor.org/asciidoc/latest/tables/adjust-column-widths/[adjust the column widths]
+* https://docs.asciidoctor.org/asciidoc/latest/tables/format-column-content/#use-asciidoc-block-elements-in-a-column[enable AsciiDoc formatting (like *bold* and _italic_) in a column]
+* https://docs.asciidoctor.org/asciidoc/latest/tables/span-cells/[span content across rows and cells]
+
+====
+
+Here you go, just type along!
+
+...
+
