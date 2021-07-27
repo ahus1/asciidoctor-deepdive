@@ -1,7 +1,7 @@
 = Formatting
 
 ====
-Explore how AsciiDoc allows you for format your text!
+Explore how AsciiDoc allows you to format your text!
 
 Example: some *bold* text!
 
