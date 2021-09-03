@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.0.3)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     afm (0.2.2)
     asciidoctor (2.0.10)
@@ -45,10 +45,11 @@ GEM
     prawn-templates (0.1.2)
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
-    public_suffix (4.0.1)
+    public_suffix (4.0.6)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     text-hyphen (1.4.1)
+    thread_safe (0.3.6)
     thread_safe (0.3.6-java)
     treetop (1.5.3)
       polyglot (~> 0.3)
@@ -56,6 +57,7 @@ GEM
 
 PLATFORMS
   java
+  x86_64-linux
 
 DEPENDENCIES
   asciidoctor (= 2.0.10)
