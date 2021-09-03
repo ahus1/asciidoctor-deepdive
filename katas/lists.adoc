@@ -12,7 +12,7 @@ Try out:
 * nesting lists
 * a numbered list
 * check marks
-* list items that has multiple paragraphs
+* list items that have multiple paragraphs
 ====
 
 Here you go, just type along!
