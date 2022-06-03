@@ -3,7 +3,7 @@ Each sentence should be in a separate line.
 Every blank line creates a new paragraph.
 
 You can write *bold* text.
-_Italic_ works as well text.
+_Italic_ works as well.
 
 '''
 
