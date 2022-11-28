@@ -1,3 +1,7 @@
+ifdef::env-github[]
+https://anita-editor.ahus1.de/#https://github.com/ahus1/asciidoctor-deepdive/blob/master/katas/{docname}.adoc[Try out in a live editor]
+endif::env-github[]
+
 = Formatting
 
 ====
@@ -9,12 +13,12 @@ Read more about it in https://docs.asciidoctor.org/asciidoc/latest/text/[Text Fo
 
 Try out more options like:
 
-* italic, bold, bold and italic, monospace
-* formatting inside a word
-* avoid formatting of special characters content +
+* Italic, bold, bold and italic, monospace.
+* Formatting inside a word.
+* Avoid formatting of special characters content +
 See https://docs.asciidoctor.org/asciidoc/latest/pass/pass-macro/[using pass-through] in the docs or https://docs.asciidoctor.org/asciidoc/latest/subs/prevent/[escaping content].
-* features of hyperlinks
-* find out about https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/[admonitions] and when to use them
+* Features of hyperlinks
+* Find out about https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/[admonitions] and when to use them
 ====
 
 Here you go, just type along!

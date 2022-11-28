@@ -1,3 +1,7 @@
+ifdef::env-github[]
+https://anita-editor.ahus1.de/#https://github.com/ahus1/asciidoctor-deepdive/blob/master/katas/{docname}.adoc[Try out in a live editor]
+endif::env-github[]
+
 = Source Code
 
 ====
