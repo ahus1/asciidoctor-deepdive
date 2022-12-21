@@ -1,10 +1,3 @@
 = Katas to explore AsciiDoc
 
-This is a list of short exercises to get to know AsciiDoc.
-
-. xref:formatting.adoc[Formatting of Texts]
-. xref:lists.adoc[Using Lists]
-. xref:tables.adoc[Using Tables]
-. xref:images-and-diagrams.adoc[Images and Diagrams]
-. xref:structuring.adoc[Structuring a document]
-. xref:sourcecode.adoc[Adding Sourcecode examples]
+This has been moved to https://github.com/ahus1/asciidoc-kata
