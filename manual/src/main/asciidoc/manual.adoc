@@ -6,7 +6,7 @@
 :source-highlighter: coderay
 :numbered:
 :icons: font
-:pdf-themesdir: css/
+:pdf-themesdir: {docdir}/css
 :pdf-theme: hb
 :hyphens:
 // using experimental to support btn: macro
